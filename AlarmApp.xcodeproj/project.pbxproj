@@ -15,6 +15,7 @@
 		B585591727CD6E1D000C3A35 /* AlarmCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B585591527CD6E1D000C3A35 /* AlarmCoreData.xcdatamodeld */; };
 		B585591927CD6E44000C3A35 /* Alarm+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = B585591827CD6E44000C3A35 /* Alarm+Convenience.swift */; };
 		B585591D27CD6ECC000C3A35 /* AlarmController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B585591C27CD6ECC000C3A35 /* AlarmController.swift */; };
+		B585591F27CD6F30000C3A35 /* AlarmListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B585591E27CD6F30000C3A35 /* AlarmListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		B585591627CD6E1D000C3A35 /* AlarmCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AlarmCoreData.xcdatamodel; sourceTree = "<group>"; };
 		B585591827CD6E44000C3A35 /* Alarm+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alarm+Convenience.swift"; sourceTree = "<group>"; };
 		B585591C27CD6ECC000C3A35 /* AlarmController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmController.swift; sourceTree = "<group>"; };
+		B585591E27CD6F30000C3A35 /* AlarmListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		B585591227CD6DDD000C3A35 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				B585591E27CD6F30000C3A35 /* AlarmListTableViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B585591727CD6E1D000C3A35 /* AlarmCoreData.xcdatamodeld in Sources */,
+				B585591F27CD6F30000C3A35 /* AlarmListTableViewController.swift in Sources */,
 				B585591D27CD6ECC000C3A35 /* AlarmController.swift in Sources */,
 				B58558FA27CD5A25000C3A35 /* AppDelegate.swift in Sources */,
 				B58558FC27CD5A25000C3A35 /* SceneDelegate.swift in Sources */,
