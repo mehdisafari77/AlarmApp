@@ -7,24 +7,8 @@
 
 import UIKit
 
-/**
-The protocol we will use to handle the updating of the cell when the `isEnabledButton` is toggled
-   - `class`: This protocol can interact with class level objects
-
-Step One:
-   - Define the protocol. This will need to interact with class level objects.
-
-Delegate Methods:
-   - alarmWasToggled(sender: AlarmTableViewCell)
-
-*/
 protocol AlarmTableViewCellDelegate: class{
-    /**
-     Delegate method for the `AlarmTableViewCellDelegate`
-     
-     Parameters:
-     - sender: The cell that that user toggled
-     */
+
     func alarmWasToggled(sender: AlarmTableViewCell)
 }
 
@@ -36,12 +20,6 @@ class AlarmTableViewCell: UITableViewCell {
     @IBOutlet weak var alarmFireDateLabel: UILabel!
     @IBOutlet weak var isEnabledSwitch: UISwitch!
 
-    /**
-     The `delegate` or *intern* for the protocol `AlarmTableViewCellDelegate`
-
-     - weak: We mark this method as weak to not create a retain cycle
-     - optional: We do not want to set the value of the delegate here.
-     */
     weak var delegate: AlarmTableViewCellDelegate?
 
     //MARK: - Helper Functions

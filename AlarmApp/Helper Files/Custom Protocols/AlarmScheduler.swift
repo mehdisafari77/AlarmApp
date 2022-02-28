@@ -13,14 +13,9 @@ protocol AlarmScheduler: class {
     func cancelUserNotification(for alarm: Alarm)
 }
 
+/// Why yes, you can extend protocols
 extension AlarmScheduler {
-    /**
-     Schedules a User Notification
 
-     - Parameters:
-        - alarm: The `alarm` to use when scheduling the User Notification
-
-     */
     func scheduleUserNotification(for alarm: Alarm){
 
         let content = UNMutableNotificationContent()
@@ -43,17 +38,10 @@ extension AlarmScheduler {
             }
         }
     }
-    /**
-     Cancels a User Notification
 
-     - Parameters:
-        - alarm: The `alarm` to use when canceling the User Notification
-
-     */
     func cancelUserNotification(for alarm: Alarm){
-        /// Canceling the User Notification. Note we use the `UUID` from the `alarm` to identify the User Notification to cancel. This can take in an array of alarms, but we will only give it one at at time.
+
         guard let id = alarm.uuidString else { return }
         UNUserNotificationCenter.current().removePendingNotificationRequests(withIdentifiers: [id])
     }
 }
-
