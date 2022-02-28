@@ -72,8 +72,8 @@
 		B58558F827CD5A25000C3A35 /* AlarmApp */ = {
 			isa = PBXGroup;
 			children = (
-				B585591A27CD6E84000C3A35 /* Controllers */,
 				B585591427CD6DF3000C3A35 /* Model */,
+				B585591A27CD6E84000C3A35 /* Controllers */,
 				B585591127CD6DD2000C3A35 /* Helper Files */,
 				B585590E27CD5AE8000C3A35 /* Storyboards */,
 				B585590D27CD5A8E000C3A35 /* Resources */,
