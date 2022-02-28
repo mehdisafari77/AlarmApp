@@ -5,4 +5,4 @@ A alarm app using core data
 An alarm app with notifications and usage of CoreData for usersto be able to set alarms, get notifications and delete or turn on off when needed
 
 ## Gif of App
-![Gif](./AlarmApp/Supporting Files/Assets.xcassets/gif.dataset/gif.gif)
+![Gif](./AlarmApp/Resources/Assets.xcassets/gif.dataset/gif.gif)
