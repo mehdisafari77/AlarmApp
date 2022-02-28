@@ -12,6 +12,8 @@
 		B585590127CD5A25000C3A35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B58558FF27CD5A25000C3A35 /* Main.storyboard */; };
 		B585590327CD5A27000C3A35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B585590227CD5A27000C3A35 /* Assets.xcassets */; };
 		B585590627CD5A27000C3A35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B585590427CD5A27000C3A35 /* LaunchScreen.storyboard */; };
+		B585591727CD6E1D000C3A35 /* AlarmCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B585591527CD6E1D000C3A35 /* AlarmCoreData.xcdatamodeld */; };
+		B585591927CD6E44000C3A35 /* Alarm+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = B585591827CD6E44000C3A35 /* Alarm+Convenience.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		B585590227CD5A27000C3A35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B585590527CD5A27000C3A35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B585590727CD5A27000C3A35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B585591627CD6E1D000C3A35 /* AlarmCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AlarmCoreData.xcdatamodel; sourceTree = "<group>"; };
+		B585591827CD6E44000C3A35 /* Alarm+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alarm+Convenience.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +58,12 @@
 		B58558F827CD5A25000C3A35 /* AlarmApp */ = {
 			isa = PBXGroup;
 			children = (
+				B585591427CD6DF3000C3A35 /* Model */,
+				B585591327CD6DE9000C3A35 /* Model Controller */,
+				B585591227CD6DDD000C3A35 /* View Controllers */,
+				B585591127CD6DD2000C3A35 /* Helper Files */,
+				B585590E27CD5AE8000C3A35 /* Storyboards */,
 				B585590D27CD5A8E000C3A35 /* Resources */,
-				B58558FF27CD5A25000C3A35 /* Main.storyboard */,
-				B585590427CD5A27000C3A35 /* LaunchScreen.storyboard */,
 			);
 			path = AlarmApp;
 			sourceTree = "<group>";
@@ -70,6 +77,45 @@
 				B585590727CD5A27000C3A35 /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		B585590E27CD5AE8000C3A35 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B58558FF27CD5A25000C3A35 /* Main.storyboard */,
+				B585590427CD5A27000C3A35 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		B585591127CD6DD2000C3A35 /* Helper Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Helper Files";
+			sourceTree = "<group>";
+		};
+		B585591227CD6DDD000C3A35 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		B585591327CD6DE9000C3A35 /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Model Controller";
+			sourceTree = "<group>";
+		};
+		B585591427CD6DF3000C3A35 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B585591527CD6E1D000C3A35 /* AlarmCoreData.xcdatamodeld */,
+				B585591827CD6E44000C3A35 /* Alarm+Convenience.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,8 +189,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B585591727CD6E1D000C3A35 /* AlarmCoreData.xcdatamodeld in Sources */,
 				B58558FA27CD5A25000C3A35 /* AppDelegate.swift in Sources */,
 				B58558FC27CD5A25000C3A35 /* SceneDelegate.swift in Sources */,
+				B585591927CD6E44000C3A35 /* Alarm+Convenience.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +343,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FVZJ4Z5QQ2;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AlarmApp/Info.plist;
+				INFOPLIST_FILE = AlarmApp/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -323,7 +371,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FVZJ4Z5QQ2;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AlarmApp/Info.plist;
+				INFOPLIST_FILE = AlarmApp/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -364,6 +412,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B585591527CD6E1D000C3A35 /* AlarmCoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B585591627CD6E1D000C3A35 /* AlarmCoreData.xcdatamodel */,
+			);
+			currentVersion = B585591627CD6E1D000C3A35 /* AlarmCoreData.xcdatamodel */;
+			path = AlarmCoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = B58558EE27CD5A25000C3A35 /* Project object */;
 }
