@@ -76,12 +76,12 @@
 				B585591A27CD6E84000C3A35 /* Controllers */,
 				B585591127CD6DD2000C3A35 /* Helper Files */,
 				B585590E27CD5AE8000C3A35 /* Storyboards */,
-				B585590D27CD5A8E000C3A35 /* Supporting Files */,
+				B585590D27CD5A8E000C3A35 /* Resources */,
 			);
 			path = AlarmApp;
 			sourceTree = "<group>";
 		};
-		B585590D27CD5A8E000C3A35 /* Supporting Files */ = {
+		B585590D27CD5A8E000C3A35 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				B585590227CD5A27000C3A35 /* Assets.xcassets */,
@@ -89,7 +89,7 @@
 				B58558F927CD5A25000C3A35 /* AppDelegate.swift */,
 				B585593627CD76F5000C3A35 /* Info.plist */,
 			);
-			path = "Supporting Files";
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		B585590E27CD5AE8000C3A35 /* Storyboards */ = {
@@ -395,7 +395,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FVZJ4Z5QQ2;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "AlarmApp/Supporting Files/Info.plist";
+				INFOPLIST_FILE = AlarmApp/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -423,7 +423,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FVZJ4Z5QQ2;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "AlarmApp/Supporting Files/Info.plist";
+				INFOPLIST_FILE = AlarmApp/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
