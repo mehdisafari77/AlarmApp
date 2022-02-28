@@ -14,6 +14,7 @@
 		B585590627CD5A27000C3A35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B585590427CD5A27000C3A35 /* LaunchScreen.storyboard */; };
 		B585591727CD6E1D000C3A35 /* AlarmCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B585591527CD6E1D000C3A35 /* AlarmCoreData.xcdatamodeld */; };
 		B585591927CD6E44000C3A35 /* Alarm+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = B585591827CD6E44000C3A35 /* Alarm+Convenience.swift */; };
+		B585591D27CD6ECC000C3A35 /* AlarmController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B585591C27CD6ECC000C3A35 /* AlarmController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		B585590727CD5A27000C3A35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B585591627CD6E1D000C3A35 /* AlarmCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AlarmCoreData.xcdatamodel; sourceTree = "<group>"; };
 		B585591827CD6E44000C3A35 /* Alarm+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alarm+Convenience.swift"; sourceTree = "<group>"; };
+		B585591C27CD6ECC000C3A35 /* AlarmController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +60,8 @@
 		B58558F827CD5A25000C3A35 /* AlarmApp */ = {
 			isa = PBXGroup;
 			children = (
+				B585591A27CD6E84000C3A35 /* Controllers */,
 				B585591427CD6DF3000C3A35 /* Model */,
-				B585591327CD6DE9000C3A35 /* Model Controller */,
-				B585591227CD6DDD000C3A35 /* View Controllers */,
 				B585591127CD6DD2000C3A35 /* Helper Files */,
 				B585590E27CD5AE8000C3A35 /* Storyboards */,
 				B585590D27CD5A8E000C3A35 /* Resources */,
@@ -105,6 +106,7 @@
 		B585591327CD6DE9000C3A35 /* Model Controller */ = {
 			isa = PBXGroup;
 			children = (
+				B585591C27CD6ECC000C3A35 /* AlarmController.swift */,
 			);
 			path = "Model Controller";
 			sourceTree = "<group>";
@@ -116,6 +118,23 @@
 				B585591827CD6E44000C3A35 /* Alarm+Convenience.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		B585591A27CD6E84000C3A35 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B585591B27CD6E98000C3A35 /* Custom Cells */,
+				B585591227CD6DDD000C3A35 /* View Controllers */,
+				B585591327CD6DE9000C3A35 /* Model Controller */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B585591B27CD6E98000C3A35 /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Custom Cells";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,6 +209,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B585591727CD6E1D000C3A35 /* AlarmCoreData.xcdatamodeld in Sources */,
+				B585591D27CD6ECC000C3A35 /* AlarmController.swift in Sources */,
 				B58558FA27CD5A25000C3A35 /* AppDelegate.swift in Sources */,
 				B58558FC27CD5A25000C3A35 /* SceneDelegate.swift in Sources */,
 				B585591927CD6E44000C3A35 /* Alarm+Convenience.swift in Sources */,
