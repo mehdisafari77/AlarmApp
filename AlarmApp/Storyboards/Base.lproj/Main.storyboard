@@ -11,13 +11,13 @@
         <!--Alarms-->
         <scene sceneID="eth-Op-fB6">
             <objects>
-                <tableViewController id="h21-AF-M4n" customClass="AlarmsListTableViewController" customModule="AlarmCoreData" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="h21-AF-M4n" customClass="AlarmsListTableViewController" customModule="AlarmApp" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Cp4-KN-xjm">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="alarmCell" id="7ID-qS-QMb" customClass="AlarmTableViewCell" customModule="AlarmCoreData" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="alarmCell" id="7ID-qS-QMb" customClass="AlarmTableViewCell" customModule="AlarmApp" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="44.5" width="414" height="103"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="7ID-qS-QMb" id="nNQ-jB-NEy">
@@ -90,7 +90,7 @@
         <!--Alarm Detail Table View Controller-->
         <scene sceneID="fGa-K2-0X4">
             <objects>
-                <tableViewController id="SHi-LN-XUB" customClass="AlarmDetailTableViewController" customModule="AlarmCoreData" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="SHi-LN-XUB" customClass="AlarmDetailTableViewController" customModule="AlarmApp" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="vi7-cO-VHf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
