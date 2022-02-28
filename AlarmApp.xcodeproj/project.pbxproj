@@ -20,6 +20,7 @@
 		B585592327CD6FAA000C3A35 /* AlarmTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B585592227CD6FAA000C3A35 /* AlarmTableViewCell.swift */; };
 		B585592627CD6FE4000C3A35 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B585592527CD6FE4000C3A35 /* CoreDataStack.swift */; };
 		B585592827CD6FF2000C3A35 /* DataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B585592727CD6FF2000C3A35 /* DataHelper.swift */; };
+		B585592A27CD703A000C3A35 /* AlarmScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B585592927CD703A000C3A35 /* AlarmScheduler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		B585592227CD6FAA000C3A35 /* AlarmTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmTableViewCell.swift; sourceTree = "<group>"; };
 		B585592527CD6FE4000C3A35 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		B585592727CD6FF2000C3A35 /* DataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataHelper.swift; sourceTree = "<group>"; };
+		B585592927CD703A000C3A35 /* AlarmScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmScheduler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,9 +104,9 @@
 		B585591127CD6DD2000C3A35 /* Helper Files */ = {
 			isa = PBXGroup;
 			children = (
-				B585592427CD6FCD000C3A35 /* Custom Protocols */,
 				B585592527CD6FE4000C3A35 /* CoreDataStack.swift */,
 				B585592727CD6FF2000C3A35 /* DataHelper.swift */,
+				B585592427CD6FCD000C3A35 /* Custom Protocols */,
 			);
 			path = "Helper Files";
 			sourceTree = "<group>";
@@ -156,6 +158,7 @@
 		B585592427CD6FCD000C3A35 /* Custom Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				B585592927CD703A000C3A35 /* AlarmScheduler.swift */,
 			);
 			path = "Custom Protocols";
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 				B585591D27CD6ECC000C3A35 /* AlarmController.swift in Sources */,
 				B585592627CD6FE4000C3A35 /* CoreDataStack.swift in Sources */,
 				B585592327CD6FAA000C3A35 /* AlarmTableViewCell.swift in Sources */,
+				B585592A27CD703A000C3A35 /* AlarmScheduler.swift in Sources */,
 				B585592127CD6F62000C3A35 /* AlarmDetailTableViewController.swift in Sources */,
 				B58558FA27CD5A25000C3A35 /* AppDelegate.swift in Sources */,
 				B58558FC27CD5A25000C3A35 /* SceneDelegate.swift in Sources */,
