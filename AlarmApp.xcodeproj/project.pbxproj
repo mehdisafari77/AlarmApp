@@ -18,6 +18,8 @@
 		B585591F27CD6F30000C3A35 /* AlarmListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B585591E27CD6F30000C3A35 /* AlarmListTableViewController.swift */; };
 		B585592127CD6F62000C3A35 /* AlarmDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B585592027CD6F62000C3A35 /* AlarmDetailTableViewController.swift */; };
 		B585592327CD6FAA000C3A35 /* AlarmTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B585592227CD6FAA000C3A35 /* AlarmTableViewCell.swift */; };
+		B585592627CD6FE4000C3A35 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B585592527CD6FE4000C3A35 /* CoreDataStack.swift */; };
+		B585592827CD6FF2000C3A35 /* DataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B585592727CD6FF2000C3A35 /* DataHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		B585591E27CD6F30000C3A35 /* AlarmListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmListTableViewController.swift; sourceTree = "<group>"; };
 		B585592027CD6F62000C3A35 /* AlarmDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmDetailTableViewController.swift; sourceTree = "<group>"; };
 		B585592227CD6FAA000C3A35 /* AlarmTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmTableViewCell.swift; sourceTree = "<group>"; };
+		B585592527CD6FE4000C3A35 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		B585592727CD6FF2000C3A35 /* DataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,9 @@
 		B585591127CD6DD2000C3A35 /* Helper Files */ = {
 			isa = PBXGroup;
 			children = (
+				B585592427CD6FCD000C3A35 /* Custom Protocols */,
+				B585592527CD6FE4000C3A35 /* CoreDataStack.swift */,
+				B585592727CD6FF2000C3A35 /* DataHelper.swift */,
 			);
 			path = "Helper Files";
 			sourceTree = "<group>";
@@ -144,6 +151,13 @@
 				B585592227CD6FAA000C3A35 /* AlarmTableViewCell.swift */,
 			);
 			path = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		B585592427CD6FCD000C3A35 /* Custom Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Custom Protocols";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,11 +234,13 @@
 				B585591727CD6E1D000C3A35 /* AlarmCoreData.xcdatamodeld in Sources */,
 				B585591F27CD6F30000C3A35 /* AlarmListTableViewController.swift in Sources */,
 				B585591D27CD6ECC000C3A35 /* AlarmController.swift in Sources */,
+				B585592627CD6FE4000C3A35 /* CoreDataStack.swift in Sources */,
 				B585592327CD6FAA000C3A35 /* AlarmTableViewCell.swift in Sources */,
 				B585592127CD6F62000C3A35 /* AlarmDetailTableViewController.swift in Sources */,
 				B58558FA27CD5A25000C3A35 /* AppDelegate.swift in Sources */,
 				B58558FC27CD5A25000C3A35 /* SceneDelegate.swift in Sources */,
 				B585591927CD6E44000C3A35 /* Alarm+Convenience.swift in Sources */,
+				B585592827CD6FF2000C3A35 /* DataHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
